@@ -139,8 +139,7 @@ const ContactPage = () => {
         }}
       >
         <Typography>
-          &copy; {new Date().getFullYear()} All Rights Reserved | Prisma Volt
-          Studio
+          &copy; {new Date().getFullYear()} All Rights Reserved | Stealth Viper
         </Typography>
       </Box>
     </>
