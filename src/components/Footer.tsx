@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
               }}
             >
               <Typography variant="h6">📧 Email</Typography>
-              <Typography>contact@prismavoltstudios.xyz</Typography>
+              <Typography>contact@stealthviper.click</Typography>
             </Paper>
           </Grid>
         </Grid>
@@ -97,8 +97,7 @@ const Footer: React.FC = () => {
         }}
       >
         <Typography>
-          &copy; {new Date().getFullYear()} All Rights Reserved | Prisma Volt
-          Studios
+          &copy; {new Date().getFullYear()} All Rights Reserved | Stealth Viper
         </Typography>
       </Box>
     </>

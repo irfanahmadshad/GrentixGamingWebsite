@@ -20,7 +20,7 @@ const AboutSection: React.FC = () => {
           About us
         </Typography>
         <Typography variant="body1">
-          Prisma Volt Studios is a passionate game development studio dedicated
+          Stealth Viper is a passionate game development studio dedicated
           to crafting immersive experiences for mobile gamers. We specialize in
           developing high-quality simulation, role-playing, and diverse game
           genres for both Android and iOS platforms, pushing the boundaries of
@@ -34,7 +34,7 @@ const AboutSection: React.FC = () => {
           Our Mission
         </Typography>
         <Typography variant="body1">
-          At Prisma Volt Studios, we believe that games should be more than just
+          At Stealth Viper, we believe that games should be more than just
           entertainment—they should be engaging, dynamic, and unforgettable. Our
           goal is to create games that captivate players with unique
           storytelling, deep gameplay mechanics, and visually stunning worlds.

@@ -19,7 +19,7 @@ const Header: React.FC = () => {
             fontWeight: "bold",
           }}
         >
-          <Image src={logo} width={70} height={60} alt="Prisma Volt Studios" />
+          <Image src={logo} width={70} height={60} alt="Stealth Viper" />
         </Link>
         <Box sx={{ display: "flex", gap: 2 }}>
           <Link href="/services" sx={{ textDecoration: "none", color: "#fff" }}>
