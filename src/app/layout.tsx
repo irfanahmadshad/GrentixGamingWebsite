@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prisma Volt Studios",
+  title: "Stealth Viper",
   description: "Bringing Dreams to Life Through Interactive Games",
 };
 
