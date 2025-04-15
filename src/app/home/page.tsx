@@ -41,13 +41,13 @@ const services = [
 
 const clients = [
   {
-    name: "PixelForge Studios",
+    name: "Nexus Force Studios",
     review:
-      "Their expertise in game mechanics and AI took our project to the next level. Highly recommended!",
+      "Their expertise in game mechanics and AI took our project to the next level",
     image: company1,
   },
   {
-    name: "NeonByte Interactive",
+    name: "DIGIVOLT Studios",
     review:
       "Fantastic collaboration! They helped us create immersive worlds with seamless gameplay.",
     image: company2,
@@ -85,7 +85,7 @@ const HomePage = () => {
               variant="contained"
               sx={{
                 backgroundColor: "#0355cc",
-                "&:hover": { backgroundColor: "#023e99" },
+                "&:hover": { backgroundColor: "#4c008a" },
               }}
               onClick={() => router.push("/contact")}
             >
@@ -243,10 +243,9 @@ const HomePage = () => {
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
                 style={{ border: "0", borderRadius: "8px" }}
-                // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.135632626087!2d74.31050897565889!3d31.43793277425186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907ab53b7069b%3A0x741f607c84951a5c!2sGreen%20Town!5e0!3m2!1sen!2s!4v1739536803979!5m2!1sen!2s"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.135632626087!2d74.31050897565889!3d31.43793277425186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907ab53b7069b%3A0x741f607c84951a5c!2sGreen%20Town!5e0!3m2!1sen!2s!4v1739536803979!5m2!1sen!2s"
-              
-              
+                
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27229.748081029502!2d74.29247744115739!3d31.449415513468296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907da5a1b1b3d%3A0xedd28b98d98ac960!2sTOWNSHIP!5e0!3m2!1sen!2s!4v1744717663753!5m2!1sen!2s"
+               
               />
             </Paper>
           </Grid>
