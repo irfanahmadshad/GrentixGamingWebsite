@@ -73,7 +73,7 @@ const HomePage = () => {
       <Container maxWidth="lg" sx={{ py: 6 }}>
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
-            <Typography variant="h2" fontWeight="bold" gutterBottom>
+            <Typography variant="h3" fontWeight="bold" gutterBottom>
               {/* STEALTH VIPER <br /> VOLT STUDIOS */}
               STEALTH VIPER
             </Typography>
@@ -243,7 +243,10 @@ const HomePage = () => {
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
                 style={{ border: "0", borderRadius: "8px" }}
+                // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.135632626087!2d74.31050897565889!3d31.43793277425186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907ab53b7069b%3A0x741f607c84951a5c!2sGreen%20Town!5e0!3m2!1sen!2s!4v1739536803979!5m2!1sen!2s"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.135632626087!2d74.31050897565889!3d31.43793277425186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907ab53b7069b%3A0x741f607c84951a5c!2sGreen%20Town!5e0!3m2!1sen!2s!4v1739536803979!5m2!1sen!2s"
+              
+              
               />
             </Paper>
           </Grid>
