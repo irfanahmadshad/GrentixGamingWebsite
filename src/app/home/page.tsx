@@ -41,7 +41,7 @@ const services = [
 
 const clients = [
   {
-    name: "Nexus Force Studios",
+    name: "Nexus Forge Studios",
     review:
       "Their expertise in game mechanics and AI took our project to the next level",
     image: company1,
@@ -58,7 +58,9 @@ const HomePage = () => {
   const router = useRouter();
 
   return (
+    
     <>
+    <Box sx={{ backgroundColor: "#fff", minHeight: "100vh" }}>
       <Head>
         <title>Home | Stealth Viper</title>
         <meta
@@ -255,8 +257,8 @@ const HomePage = () => {
       {/* Footer */}
       <Box
         sx={{
-          backgroundColor: "#0a0f43",
-          color: "#fff",
+          backgroundColor: "#3a174f",
+          color: "#f4ebf9",
           textAlign: "center",
           py: 3,
         }}
@@ -265,7 +267,9 @@ const HomePage = () => {
           &copy; {new Date().getFullYear()} All Rights Reserved | Stealth Viper
         </Typography>
       </Box>
+      </Box>
     </>
+    
   );
 };
 

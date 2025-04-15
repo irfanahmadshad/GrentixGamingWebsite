@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           px: 10,
           color: "#fff",
           textAlign: "center",
-          backgroundColor: "#0a0f43",
+          backgroundColor: "#2a024a",
         }}
       >
         <Typography variant="h3">Get In Touch</Typography>
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
               }}
             >
               <Typography variant="h6">📍 Address</Typography>
-              <Typography>Green Town, Lahore</Typography>
+              <Typography>Township, Lahore</Typography>
             </Paper>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
       {/* Footer */}
       <Box
         sx={{
-          backgroundColor: "#0a0f43",
+          backgroundColor: "#2a024a",
           color: "#fff",
           textAlign: "center",
           py: 3,

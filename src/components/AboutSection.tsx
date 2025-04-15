@@ -13,9 +13,9 @@ const AboutSection: React.FC = () => {
           style={{ width: "100%", height: "500px" }}
         />
         <Typography
-          variant="h4"
+          variant="h5"
           gutterBottom
-          sx={{ fontWeight: "bold", textTransform: "uppercase" }}
+          sx={{ fontWeight: "bold", textTransform: "uppercase", mt: 2 }}
         >
           About us
         </Typography>
@@ -25,11 +25,12 @@ const AboutSection: React.FC = () => {
           developing high-quality simulation, role-playing, and diverse game
           genres for both Android and iOS platforms, pushing the boundaries of
           creativity and innovation.
+          
         </Typography>
         <Typography
-          variant="h4"
+          variant="h5"
           gutterBottom
-          sx={{ fontWeight: "bold", textTransform: "uppercase" }}
+          sx={{ fontWeight: "bold", textTransform: "uppercase", mt: 5 }}
         >
           Our Mission
         </Typography>
@@ -40,9 +41,9 @@ const AboutSection: React.FC = () => {
           storytelling, deep gameplay mechanics, and visually stunning worlds.
         </Typography>
         <Typography
-          variant="h4"
+          variant="h5"
           gutterBottom
-          sx={{ fontWeight: "bold", textTransform: "uppercase" }}
+          sx={{ fontWeight: "bold", textTransform: "uppercase", mt: 5 }}
         >
           What We Do
         </Typography>
@@ -54,9 +55,9 @@ const AboutSection: React.FC = () => {
           realism.
         </Typography>
         <Typography
-          variant="h4"
+          variant="h5"
           gutterBottom
-          sx={{ fontWeight: "bold", textTransform: "uppercase" }}
+          sx={{ fontWeight: "bold", textTransform: "uppercase", mt: 5 }}
         >
           Our Vision
         </Typography>
@@ -67,16 +68,16 @@ const AboutSection: React.FC = () => {
           gameplay, and immersive storytelling that sets us apart from the rest.
         </Typography>
         <Typography
-          variant="h4"
+          variant="h5"
           gutterBottom
-          sx={{ fontWeight: "bold", textTransform: "uppercase" }}
+          sx={{ fontWeight: "bold", textTransform: "uppercase", mt: 5 }}
         >
           Join Our Community
         </Typography>
         <Typography variant="body1">
           We love connecting with our players! Your feedback drives us to
           improve and innovate. Stay updated with our latest releases and game
-          updates by following us on [your social media links]. Let’s build
+          updates by following us. Let’s build
           unforgettable gaming experiences together! 🚀🎮
         </Typography>
       </Box>

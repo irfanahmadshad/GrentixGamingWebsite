@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <AppBar
       position="static"
-      sx={{ backgroundColor: "#000", padding: "10px 0" }}
+      sx={{ backgroundColor: "#2a024a", padding: "10px 0" }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <Link
