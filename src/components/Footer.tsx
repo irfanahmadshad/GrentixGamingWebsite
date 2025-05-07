@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               }}
             >
               <Typography variant="h6">📞 Phone</Typography>
-              <Typography>+92 324-9430883</Typography>
+              <Typography>+92 323-4516690</Typography>
             </Paper>
           </Grid>
           <Grid item xs={12} sm={4}>
