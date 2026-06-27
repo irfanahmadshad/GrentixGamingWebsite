@@ -5,13 +5,17 @@ import { Box, Container, Typography } from "@mui/material";
 
 const AboutSection: React.FC = () => {
   return (
+     <Box sx={{ backgroundColor: "#f8e8eaff", minHeight: "100vh" }}>
     <Container sx={{ py: 8 }}>
+       
       <Box>
+        {/*
         <Image
           src={about}
           alt="About us"
           style={{ width: "100%", height: "500px" }}
         />
+        */}
         <Typography
           variant="h5"
           gutterBottom
@@ -20,7 +24,7 @@ const AboutSection: React.FC = () => {
           About us
         </Typography>
         <Typography variant="body1">
-          Stealth Viper is a passionate game development studio dedicated
+          Grentix Gaming is a passionate game development studio dedicated
           to crafting immersive experiences for mobile gamers. We specialize in
           developing high-quality simulation, role-playing, and diverse game
           genres for both Android and iOS platforms, pushing the boundaries of
@@ -35,7 +39,7 @@ const AboutSection: React.FC = () => {
           Our Mission
         </Typography>
         <Typography variant="body1">
-          At Stealth Viper, we believe that games should be more than just
+          At Grentix Gaming, we believe that games should be more than just
           entertainment—they should be engaging, dynamic, and unforgettable. Our
           goal is to create games that captivate players with unique
           storytelling, deep gameplay mechanics, and visually stunning worlds.
@@ -81,7 +85,9 @@ const AboutSection: React.FC = () => {
           unforgettable gaming experiences together! 🚀🎮
         </Typography>
       </Box>
+     
     </Container>
+     </Box>
   );
 };
 

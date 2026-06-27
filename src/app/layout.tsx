@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stealth Viper",
+  title: "Grentix Gaming",
   description: "Bringing Dreams to Life Through Interactive Games",
 };
 

@@ -31,6 +31,7 @@ const ContactPage = () => {
 
   return (
     <>
+    <Box sx={{ backgroundColor: "#f8e8eaff", minHeight: "100vh" }}>
       <Head>
         <title>Contact Us | Inance</title>
         <meta name="description" content="Get in touch with us" />
@@ -39,7 +40,8 @@ const ContactPage = () => {
       <Header />
 
       {/* Contact Section */}
-      <Container maxWidth="lg" sx={{ py: 6 }}>
+   
+      <Container maxWidth="lg" sx={{ py: 3 }}>
         <Typography
           variant="h4"
           align="center"
@@ -47,7 +49,7 @@ const ContactPage = () => {
         >
           Contact Us
         </Typography>
-        <Grid container spacing={4} justifyContent="center">
+        <Grid container spacing={4} justifyContent="center" alignItems="center">
           {/* Form Section */}
           <Grid item xs={12} md={6}>
             <Paper elevation={3} sx={{ p: 4, borderRadius: "8px" }}>
@@ -123,7 +125,7 @@ const ContactPage = () => {
                 referrerPolicy="no-referrer-when-downgrade"
                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27229.748081029502!2d74.29247744115739!3d31.449415513468296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907da5a1b1b3d%3A0xedd28b98d98ac960!2sTOWNSHIP!5e0!3m2!1sen!2s!4v1744717663753!5m2!1sen!2s"
 
-              />
+              ></iframe>
             </Paper>
           </Grid>
         </Grid>
@@ -132,16 +134,17 @@ const ContactPage = () => {
       {/* Footer */}
       <Box
         sx={{
-          backgroundColor: "#0a0f43",
+          backgroundColor: "#852230",
           color: "#fff",
           textAlign: "center",
-          py: 3,
+          py: 1,
           mt: 6,
         }}
       >
         <Typography>
-          &copy; {new Date().getFullYear()} All Rights Reserved | Stealth Viper
+          &copy; {new Date().getFullYear()} All Rights Reserved | Grentix Gaming
         </Typography>
+      </Box>
       </Box>
     </>
   );

@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <AppBar
       position="static"
-      sx={{ backgroundColor: "#2a024a", padding: "10px 0" }}
+      sx={{ backgroundColor: "#852230", padding: "5px" }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <Link
@@ -19,12 +19,12 @@ const Header: React.FC = () => {
             fontWeight: "bold",
           }}
         >
-          <Image src={logo} width={70} height={60} alt="Stealth Viper" />
+          <Image src={logo} width={80} height={70} alt="Grentix Gaming" />
         </Link>
         <Box sx={{ display: "flex", gap: 2 }}>
-          <Link href="/services" sx={{ textDecoration: "none", color: "#fff" }}>
+          {/* <Link href="/services" sx={{ textDecoration: "none", color: "#fff" }}>
             Services
-          </Link>
+          </Link> */}
           <Link
             href="/privacy-policy"
             sx={{ textDecoration: "none", color: "#fff" }}

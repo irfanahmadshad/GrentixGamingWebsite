@@ -60,9 +60,9 @@ const HomePage = () => {
   return (
     
     <>
-    <Box sx={{ backgroundColor: "#fff", minHeight: "100vh" }}>
+    <Box sx={{ backgroundColor: "#f8e8eaff", minHeight: "100vh" }}>
       <Head>
-        <title>Home | Stealth Viper</title>
+        <title>Home | Grentix Gaming</title>
         <meta
           name="description"
           content="Professional games development services include design, development, and testing."
@@ -76,8 +76,8 @@ const HomePage = () => {
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
             <Typography variant="h3" fontWeight="bold" gutterBottom>
-              {/* STEALTH VIPER <br /> VOLT STUDIOS */}
-              STEALTH VIPER
+              {/* Grentix Gaming <br /> VOLT STUDIOS */}
+              Grentix Gaming
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
               Providing high-quality game design, development, and testing
@@ -85,9 +85,9 @@ const HomePage = () => {
             </Typography>
             <Button
               variant="contained"
-              sx={{
-                backgroundColor: "#0355cc",
-                "&:hover": { backgroundColor: "#4c008a" },
+               sx={{
+                backgroundColor: "#852230",
+                "&:hover": { backgroundColor: "#ee7c53ff" }
               }}
               onClick={() => router.push("/contact")}
             >
@@ -105,6 +105,7 @@ const HomePage = () => {
       </Container>
 
       {/* Services Section */}
+      {/*
       <Container maxWidth="lg" sx={{ py: 6 }}>
         <Typography
           variant="h4"
@@ -136,7 +137,7 @@ const HomePage = () => {
           ))}
         </Grid>
       </Container>
-
+      */}
       {/* About Section */}
       <Container maxWidth="lg" sx={{ py: 6 }}>
         <Grid container spacing={30} alignItems="center">
@@ -151,8 +152,8 @@ const HomePage = () => {
             <Button
               variant="contained"
               sx={{
-                backgroundColor: "#ff8a1d",
-                "&:hover": { backgroundColor: "#d86e00" },
+                backgroundColor: "#852230",
+                "&:hover": { backgroundColor: "#ee7c53ff" },
                 mt: 3,
               }}
               onClick={() => router.push("/about")}
@@ -160,17 +161,12 @@ const HomePage = () => {
               Read More
             </Button>
           </Grid>
-          <Grid item xs={12} md={6}>
-            <Image
-              src={about}
-              alt="About Us"
-              style={{ width: "370px", height: "300px", borderRadius: "10px" }}
-            />
-          </Grid>
+         
         </Grid>
       </Container>
 
       {/* Client Testimonials */}
+      {/*
       <Container sx={{ py: 6 }}>
         <Typography
           variant="h4"
@@ -210,7 +206,7 @@ const HomePage = () => {
           ))}
         </Grid>
       </Container>
-
+      */}
       {/* Contact Section */}
       <Container maxWidth="lg" sx={{ py: 6 }}>
         <Typography
@@ -221,50 +217,59 @@ const HomePage = () => {
         >
           Contact Us
         </Typography>
-        <Grid container spacing={4} justifyContent="center">
-          <Grid item xs={12} md={6}>
-            <Paper elevation={3} sx={{ p: 4, borderRadius: "8px" }}>
-              <Typography variant="body1">
-                📍 Address: Township, Lahore
-              </Typography>
-              <Typography variant="body1">📞 Phone: +92 323-4516690</Typography>
-              <Typography variant="body1">
-                📧 Email: contact@stealthviper.click
-              </Typography>
-            </Paper>
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <Paper
-              elevation={3}
-              sx={{ height: 300, borderRadius: "8px", overflow: "hidden" }}
-            >
-              <iframe
-                width="100%"
-                height="100%"
-                loading="lazy"
-                allowFullScreen
-                referrerPolicy="no-referrer-when-downgrade"
-                style={{ border: "0", borderRadius: "8px" }}
-                
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27229.748081029502!2d74.29247744115739!3d31.449415513468296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907da5a1b1b3d%3A0xedd28b98d98ac960!2sTOWNSHIP!5e0!3m2!1sen!2s!4v1744717663753!5m2!1sen!2s"
-               
-              />
-            </Paper>
-          </Grid>
-        </Grid>
+          <Grid container spacing={10} justifyContent="center" alignItems="center">
+  <Grid item xs={12} md={10}>
+    <Paper
+      elevation={2}
+      sx={{ 
+        p: 3, 
+        borderRadius: "20px", 
+        textAlign: "center"  // optional: center text inside the box
+      }}
+    >
+      <Typography variant="body1" sx={{ fontSize: "18px", mb: 1 }}>
+        📍 Address: Township, Lahore
+      </Typography>
+      <Typography variant="body1" sx={{ fontSize: "18px", mb: 1 }}>
+        📞 Phone: +92 323-4516690
+      </Typography>
+      <Typography variant="body1" sx={{ fontSize: "18px" }}>
+        📧 Email: contact@stealthviper.click
+      </Typography>
+    </Paper>
+  </Grid>
+
+  <Grid item xs={12} md={8}>
+    <Paper
+      elevation={3}
+      sx={{ height: 400, borderRadius: "8px", overflow: "hidden" }}
+    >
+      <iframe
+        width="100%"
+        height="100%"
+        loading="lazy"
+        allowFullScreen
+        referrerPolicy="no-referrer-when-downgrade"
+        style={{ border: "0", borderRadius: "8px" }}
+        src="https://www.google.com/maps/embed?...yourlink..."
+      />
+    </Paper>
+  </Grid>
+</Grid>
+
       </Container>
 
       {/* Footer */}
       <Box
         sx={{
-          backgroundColor: "#3a174f",
+          backgroundColor: "#852230",
           color: "#f4ebf9",
           textAlign: "center",
-          py: 3,
+          py: 1,
         }}
       >
         <Typography>
-          &copy; {new Date().getFullYear()} All Rights Reserved | Stealth Viper
+          &copy; {new Date().getFullYear()} All Rights Reserved | Grentix Gaming
         </Typography>
       </Box>
       </Box>

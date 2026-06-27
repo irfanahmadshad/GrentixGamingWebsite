@@ -16,15 +16,15 @@ const Footer: React.FC = () => {
     <>
       <Box
         sx={{
-          py: 6,
+          py: 4,
           px: 10,
           color: "#fff",
           textAlign: "center",
-          backgroundColor: "#2a024a",
+          backgroundColor: "#852230",
         }}
       >
         <Typography variant="h3">Get In Touch</Typography>
-        <Grid container spacing={4} justifyContent="center" sx={{ mt: 2 }}>
+        <Grid container spacing={3} justifyContent="center" sx={{ mt: 2 }}>
           <Grid item xs={12} sm={4}>
             <Paper
               elevation={3}
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               }}
             >
               <Typography variant="h6">📞 Phone</Typography>
-              <Typography>+92 323-4516690</Typography>
+              <Typography>+92 309-7089139</Typography>
             </Paper>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
               }}
             >
               <Typography variant="h6">📧 Email</Typography>
-              <Typography>contact@stealthviper.click</Typography>
+              <Typography>contact@grentixgamiing.click</Typography>
             </Paper>
           </Grid>
         </Grid>
@@ -90,14 +90,14 @@ const Footer: React.FC = () => {
       {/* Footer */}
       <Box
         sx={{
-          backgroundColor: "#2a024a",
+          backgroundColor: "#852230",
           color: "#fff",
           textAlign: "center",
           py: 3,
         }}
       >
         <Typography>
-          &copy; {new Date().getFullYear()} All Rights Reserved | Stealth Viper
+          &copy; {new Date().getFullYear()} All Rights Reserved | Grentix Gaming
         </Typography>
       </Box>
     </>
