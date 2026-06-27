@@ -234,7 +234,7 @@ const HomePage = () => {
         📞 Phone: +92 323-4516690
       </Typography>
       <Typography variant="body1" sx={{ fontSize: "18px" }}>
-        📧 Email: contact@stealthviper.click
+        📧 Email: contact@grentixgaming.click
       </Typography>
     </Paper>
   </Grid>

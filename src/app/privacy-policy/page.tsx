@@ -128,7 +128,7 @@ const PrivacyPolicy = () => {
             to us at:
           </Typography>
           <Typography variant="body1">
-            📧 Email: contact@stealthviper.click
+            📧 Email: contact@grentixgaming.click
           </Typography>
         </Container>
 
