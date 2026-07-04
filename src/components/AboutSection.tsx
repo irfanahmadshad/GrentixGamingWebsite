@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import about from "../../public/Images/about-us.png";
 import { Box, Container, Typography } from "@mui/material";
 
 const AboutSection: React.FC = () => {
