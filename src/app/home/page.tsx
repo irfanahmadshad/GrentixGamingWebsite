@@ -228,10 +228,10 @@ const HomePage = () => {
       }}
     >
       <Typography variant="body1" sx={{ fontSize: "18px", mb: 1 }}>
-        📍 Address: Township, Lahore
+        📍 Address: Muslim Town, Lahore
       </Typography>
       <Typography variant="body1" sx={{ fontSize: "18px", mb: 1 }}>
-        📞 Phone: +92 323-4516690
+        📞 Phone: +92 309-7089139 
       </Typography>
       <Typography variant="body1" sx={{ fontSize: "18px" }}>
         📧 Email: contact@grentixgaming.click
@@ -251,7 +251,7 @@ const HomePage = () => {
         allowFullScreen
         referrerPolicy="no-referrer-when-downgrade"
         style={{ border: "0", borderRadius: "8px" }}
-        src="https://www.google.com/maps/embed?...yourlink..."
+         src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13605.86412608845!2d74.3026330130122!3d31.511357881033362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919047fb2717127%3A0x2d6cc85a0a81d71d!2sMuslim%20Town%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1783140782096!5m2!1sen!2s" 
       />
     </Paper>
   </Grid>
