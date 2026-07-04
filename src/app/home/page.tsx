@@ -1,58 +1,12 @@
 "use client";
-import {
-  Box,
-  Grid,
-  Card,
-  Paper,
-  Button,
-  Container,
-  Typography,
-  CardContent,
-} from "@mui/material";
+import { Box, Grid, Paper, Button, Container, Typography } from "@mui/material";
 import Head from "next/head";
 import Image from "next/image";
 import Header from "@/components/Header";
 import { useRouter } from "next/navigation";
-import about from "../../../public/Images/about.png";
-import design from "../../../public/Images/design.png";
 import heroImage from "../../../public/Images/hero.png";
-import testing from "../../../public/Images/testing.png";
-import company1 from "../../../public/Images/company1.png";
-import company2 from "../../../public/Images/company2.png";
-import development from "../../../public/Images/development.png";
 
-const services = [
-  {
-    title: "Game Design",
-    description: "Creating immersive and engaging game designs.",
-    image: design,
-  },
-  {
-    title: "Development",
-    description: "Expert game development services for all platforms.",
-    image: development,
-  },
-  {
-    title: "Testing",
-    description: "Comprehensive game testing to ensure quality.",
-    image: testing,
-  },
-];
 
-const clients = [
-  {
-    name: "Nexus Forge Studios",
-    review:
-      "Their expertise in game mechanics and AI took our project to the next level",
-    image: company1,
-  },
-  {
-    name: "DIGIVOLT Studios",
-    review:
-      "Fantastic collaboration! They helped us create immersive worlds with seamless gameplay.",
-    image: company2,
-  },
-];
 
 const HomePage = () => {
   const router = useRouter();
